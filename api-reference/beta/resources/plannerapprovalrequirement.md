@@ -15,6 +15,8 @@ Namespace: microsoft.graph
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
 Represents whether a [plannerTask](plannertask.md) must have an approval completion requirement created for it.
+> [!IMPORTANT]
+> This property is automatically populated  when using task publishing to create a task with an approval requirement and can be queried via this API for reporting or other purposes. This property is not populated for tasks created by users or tasks created via API. Manually setting a value for this property via API is not supported. 
 
 ## Properties
 |Property|Type|Description|
